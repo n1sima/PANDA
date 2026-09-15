@@ -1,0 +1,61 @@
+# TITLE   Pb4 [Cubic, Centric (-1 at origin)]
+#        a         b         c       alpha     beta      gamma
+# CELL    4.95000   4.95000   4.95000  90.00000  90.00000  90.00000
+# SPCGRP  F m -3 m [Number  225]
+#                    X         Y         Z         B         Occ       Spin      Charge
+# Atom  Pb1          0.00000   0.00000   0.00000   0.00000   0.02083   0.00000   0.00000
+# COMMAND cif2hkl Pb.cif --output Pb.cif.hkl
+# CIF2HKL (c) ILL 2012 E. Farhi <farhi@ill.eu> based on CrysFML
+# DATE    29/08/2019 at 10:21:11
+#
+# Physical parameters:
+# sigma_coh        44.46185 coherent   scattering cross section in [barn]
+# sigma_inc         0.01200 incoherent scattering cross section in [barn]
+# sigma_abs         0.68400 absorption scattering cross section in [barn]
+# density           6.83336 in [g/cm^3]
+# weight          828.79999 in [g/mol]
+# Vc              121.28739 volume of unit cell in [A^3]
+# lattice_a         4.95000 lattice parameter a in [Angs]
+# lattice_b         4.95000 lattice parameter b in [Angs]
+# lattice_c         4.95000 lattice parameter c in [Angs]
+# lattice_aa       90.00000 lattice angle alpha in [deg]
+# lattice_bb       90.00000 lattice angle beta in [deg]
+# lattice_cc       90.00000 lattice angle gamma in [deg]
+# STRUCTURE FACTORS(NEUTRONS)
+#
+# Format parameters: Crystallographica format
+# column_h  1
+# column_k  2
+# column_l  3
+# column_j  4   multiplicity 'j'
+# column_d  5   d-spacing 'd' in [Angs]
+# column_F2 6   norm of scattering factor |F|^2 in [barn]
+#
+# List     2 reflections for lambda >     4.0000 [Angs], decreasing d-spacing.
+# H   K   L     Mult    dspc                   |Fc|^2
+   1    1    1     8       2.85788      14.15264
+  -1   -1   -1     8       2.85788      14.15264 
+  -1    1    1     8       2.85788      14.15264
+   1   -1   -1     8       2.85788      14.15264
+   1   -1    1     8       2.85788      14.15264
+  -1    1   -1     8       2.85788      14.15264
+   1    1   -1     8       2.85788      14.15264
+  -1   -1    1     8       2.85788      14.15264
+   2    0    0     6       2.47500      14.15264
+  -2    0    0     6       2.47500      14.15264
+   0    2    0     6       2.47500      14.15264
+   0   -2    0     6       2.47500      14.15264
+   0    0    2     6       2.47500      14.15264
+   0    0   -2     6       2.47500      14.15264
+   2    2    0    12       1.75009      14.15264
+  -2   -2    0    12       1.75009      14.15264
+   2    0    2    12       1.75009      14.15264
+  -2    0   -2    12       1.75009      14.15264
+   0    2    2    12       1.75009      14.15264
+   0   -2   -2    12       1.75009      14.15264
+  -2    2    0    12       1.75009      14.15264
+   2   -2    0    12       1.75009      14.15264
+  -2    0    2    12       1.75009      14.15264
+   2    0   -2    12       1.75009      14.15264
+   0   -2    2    12       1.75009      14.15264
+   0    2   -2    12       1.75009      14.15264
